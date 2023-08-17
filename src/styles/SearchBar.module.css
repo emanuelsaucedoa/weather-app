@@ -1,0 +1,28 @@
+.container{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.container form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container form input{
+    width: 30%;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    color: black;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.1rem;
+}

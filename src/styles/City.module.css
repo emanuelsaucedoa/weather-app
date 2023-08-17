@@ -1,0 +1,35 @@
+.container{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 2rem;
+    color: #06283D;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.container .card{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.container .card h2{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.back{
+    align-self: flex-end;
+    position: absolute;
+    top: -20px;
+    left: 105%;
+    bottom: 100%;
+}
+
